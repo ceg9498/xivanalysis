@@ -1,0 +1,32 @@
+@value gutter, md, themeGreen, themeRed, themeYellow from 'theme.module.css';
+
+.progress {
+	display: inline-block;
+	width: 200px;
+	height: 13px;
+	margin: 0 0 0 1em;
+	vertical-align: middle;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}
+
+.bar {
+	height: 100%;
+	border-radius: 4px;
+}
+
+.green {
+	background: themeGreen;
+}
+.red {
+	background: themeRed;
+}
+.yellow {
+	background: themeYellow;
+}
+
+@media md {
+	.container {
+		margin: gutter;
+	}
+}
