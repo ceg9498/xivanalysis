@@ -5,7 +5,7 @@ declare namespace ToggleModuleCssModule {
     slider: string;
     themeBackground: string;
     themeGreen: string;
-    themeRed: string;
+    themeGrey: string;
     toggle: string;
   }
 }

@@ -1,4 +1,4 @@
-@value colorLightness, themeBackground, themeGreen, themeRed from "theme.module.css";
+@value colorLightness, themeBackground, themeGreen, themeGrey from "theme.module.css";
 
 .toggle {
 	position: relative;
@@ -29,7 +29,7 @@
 	width: 36px;
 	height: 20px;
 	border-radius: 10px;
-	background-color: color(themeRed s(colorLightness));
+	background-color: #767676;
 	-webkit-transition: .4s;
 	transition: .4s;
 }
@@ -47,7 +47,7 @@
 }
 
 input:checked + .slider {
-	background-color: color(themeGreen s(colorLightness));
+	background-color: themeGreen;
 }
 input:checked + .slider:before {
 	-webkit-transform: translateX(16px);
